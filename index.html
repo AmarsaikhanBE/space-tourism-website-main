@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <title>Frontend Mentor | Space tourism website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Cinzel:wght@400;500&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav">
+                <button id="navLogo"></button>
+                <input type="checkbox" name="navMenu" id="navMenuCheck">
+                <label for="navMenuCheck" id="navMenuLabel"></label>
+                <ul id="navMenuList">
+                    <li class="active">Home</li>
+                    <li>Destination</li>
+                    <li>Crew</li>
+                    <li>Technology</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <div class="page" id="pageHome">
+                <div class="col">
+                    <h2>So you want to travel to</h2>
+                    <h1>Space</h1>
+                    <p>Let's face if; i you want to got to space, you might as well genuinely go to oyter space and not hover kind of on the edge of it. Well sit back, and relax bacause we'll give you a truly out of this world experience!</p>
+                </div>
+                <div class="col">
+                    <button id="explore">Explore</button>
+                </div>
+            </div>
+            <div class="page" id="pageDest">
+                <div class="col">
+                    <h2>Pick your destination</h2>
+                    <img src="" alt="destImg">
+                </div>
+                <div class="col">
+                    <ul id="destMenu">
+                        <li>Moon</li>
+                        <li>Mars</li>
+                        <li>Europa</li>
+                        <li>Titan</li>
+                    </ul>
+                    <h1></h1>
+                    <p></p>
+                    <div class="grid-row">
+                        <div id="distVal">
+                            <h3>avg. distance</h3>
+                            <div class="value"></div>
+                        </div>
+                        <div id="timeVal">
+                            <h3>est travel time</h3>
+                            <div class="value"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="page" id="pageCrew">
+                <div class="col">
+                    <h2>Meet your crew</h2>
+                    <img src="" alt="crewMem">
+                </div>
+                <div class="col">
+                    <ul id="crewMenu">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <h4></h4>
+                    <h1></h1>
+                    <p></p>
+                </div>
+            </div>
+            <div class="page" id="pageTech">
+                <div class="col">
+                    <h2>Space launch 101</h2>
+                    <img src="" alt="techImg">
+                </div>
+                <div class="col">
+                    <ul id="techMenu">
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                    </ul>
+                    <h5>The terminology</h5>
+                    <h1></h1>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./app.js"></script>
+</body>
+
+</html>
